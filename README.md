@@ -20,9 +20,4 @@ O projeto é composto pelos seguintes arquivos:
 - **Estilos Modernos**: Utiliza a fonte "Poppins" e ícones modernos para uma melhor experiência do usuário.
 - **Imagens de Fundo**: As imagens de fundo são geradas pela API [Picsum](https://picsum.photos/).
 
-## Como Usar
-
-1. Clone este repositório em sua máquina local:
-
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
