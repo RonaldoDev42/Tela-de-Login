@@ -1,129 +1,147 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* Reset de margens, padding e definição do box-sizing para todos os elementos */
+    /* Define a fonte padrão da página como Poppins */
+}
 
-    body {
-        background-image: url('https://picsum.photos/1920/1080');
-        background-size: cover;
-        background-position: center;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+body {
+    background-image: url('https://picsum.photos/1920/1080');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Estilização do corpo da página: imagem de fundo, centralização de conteúdo */
+}
 
-    .container {
-        width: 420px;
-        background: transparent;
-        border: 2px solid rgba(255, 255, 255, .2);
-        backdrop-filter: blur(20px);
-        border-radius: 10px;
-        padding: 30px 40px;
-    }
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+    /* Estilização do container principal: tamanho, borda, efeito de desfoque, etc. */
+}
 
-    h1 {
-        font-size: 36px;
-        text-align: center;
-        color: #fff;
-    }
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    /* Estilização do título: tamanho da fonte, alinhamento, cor */
+}
 
-    .input-container {
-        position: relative;
-        width: 100%;
-        height: 50px;
-        margin: 30px 0;
-    }
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    /* Estilização dos containers dos inputs: posição, tamanho, margens */
+}
 
-    .input-container input {
-        width: 100%;
-        height: 100%;
-        background: transparent;
-        border: none;
-        outline: none;
-        border: 2px solid rgba(255, 255, 255, .2);
-        border-radius: 10px;
-        font-size: 16px;
-        color: #fff;
-        padding: 20px 45px 20px 20px;
-    }
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    /* Estilização dos inputs: tamanho, bordas, fontes, padding */
+}
 
-    .input-container input::placeholder {
-        color: #fff;
-    }
+.input-container input::placeholder {
+    color: #fff;
+    /* Cor do placeholder nos inputs */
+}
 
-    .input-container img {
-        position: absolute;
-        right: 24px;
-        top: 20%;
-        margin-top: 5px;
-    }
+.input-container img {
+    position: absolute;
+    right: 24px;
+    top: 20%;
+    margin-top: 5px;
+    /* Estilização dos ícones dentro dos containers dos inputs: posição e margens */
+}
 
-    .input-container a {
-        font-size: 16px;
-        margin-top: 5px;
-        color: #fff;
-        text-decoration: none;
-    }
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    /* Estilização do link "Esqueci minha Senha": tamanho da fonte, cor, decoração do texto */
+}
 
-    .input-container a:hover {
-        text-decoration: underline;
-    }
+.input-container a:hover {
+    text-decoration: underline;
+    /* Efeito de hover para o link "Esqueci minha Senha": sublinhado */
+}
 
-    .submit-button {
-        width: 100%;
-        height: 50px;
-        background-color: #5100b5;
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        margin-top: 24px;
-        cursor: pointer;
-        outline: none;
-        font-size: 16px;
-    }
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: #5100b5;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    /* Estilização do botão de submit: tamanho, cor de fundo, bordas, fontes, etc. */
+}
 
-    .submit-button:hover {
-        background-color: #6e16da;
-    }
+.submit-button:hover {
+    background-color: #6e16da;
+    /* Efeito de hover para o botão de submit: cor de fundo */
+}
 
-    .register-link p {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 500;
-    }
+.register-link p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    /* Estilização do texto dentro do container de registro: tamanho da fonte, cor, peso da fonte */
+}
 
+.register-link {
+    text-align: center;
+    margin: 20px 0;
+    /* Estilização do container de registro: alinhamento do texto, margens */
+}
 
-    .register-link {
-        text-align: center;
-        margin: 20px 0;
-    }
+.register-link p a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    /* Estilização do link de registro: tamanho da fonte, cor, peso da fonte, decoração do texto */
+}
 
-    .register-link p a {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 700;
-        text-decoration: none;
-    }
+.register-link p a:hover {
+    text-decoration: underline;
+    /* Efeito de hover para o link de registro: sublinhado */
+}
 
-    .register-link p a:hover {
-        text-decoration: underline;
-    }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /* Estilização do rodapé: alinhamento, padding, posição fixa na parte inferior da página */
+}
 
-    footer {
-        text-align: center;
-        padding: 20px;
-        background-color: transparent;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-    }
-
-    footer p {
-        margin: 0;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        color: #fff;
-    }
+footer p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    /* Estilização do texto do rodapé: margens, fonte, peso da fonte, cor */
+}
